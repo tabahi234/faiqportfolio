@@ -67,7 +67,7 @@ const App = () => {
           <a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a>
           <a href="#work" onClick={() => setIsMenuOpen(false)}>Work</a>
           <a href="#reels" onClick={() => setIsMenuOpen(false)}>Verticals</a>
-          <a href="/resume (2).pdf" target="_blank" rel="noopener noreferrer" className="nav-social" onClick={() => setIsMenuOpen(false)}>Resume</a>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-social" onClick={() => setIsMenuOpen(false)}>Resume</a>
           <a href="mailto:faiqsubhani0987@gmail.com?subject=Project Inquiry" className="btn-pill" onClick={() => setIsMenuOpen(false)}>Get in touch</a>
         </div>
       </nav>
@@ -108,7 +108,7 @@ const App = () => {
           className="hero-image-container"
         >
           <div className="hero-image-backdrop"></div>
-          <img src="/img1.png" alt="Faiq Subhani" />
+          <img src="/img1.webp" alt="Faiq Subhani" width="732" height="698" fetchPriority="high" decoding="async" />
         </motion.div>
 
         <motion.div
@@ -164,7 +164,7 @@ const App = () => {
             <a href="https://wa.me/923241475020?text=Hi%20Faiq!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20project." className="btn-link" target="_blank" rel="noreferrer">
               ✦ WhatsApp: 0324 1475 020
             </a>
-            <a href="/resume (2).pdf" target="_blank" rel="noopener noreferrer" className="btn-link secondary">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-link secondary">
               Resume
             </a>
           </motion.div>
